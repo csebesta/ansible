@@ -1,0 +1,8 @@
+---
+- name: My frst task!
+  hosts: localhost
+  tasks:
+  - name: Leave an indelible mark
+    command: 'touch ~/ansible_was_here'
+  - name: Other
+    command: 'echo hello'
